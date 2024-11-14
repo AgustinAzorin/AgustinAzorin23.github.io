@@ -47,13 +47,3 @@ body {
     font-family: 'Arial', sans-serif;
 }
 
-.barra-superior {
-    width: 100%;
-    background-color: black; /* Color negro */
-    color: white; /* Texto en color blanco */
-    padding: 10px; /* Espaciado dentro de la barra */
-    text-align: center; /* Centra el texto */
-    position: fixed; /* Hace que la barra esté siempre en la parte superior */
-    top: 0; /* Fija la barra en la parte superior */
-    z-index: 1000; /* Asegura que esté encima de otros elementos */
-}
