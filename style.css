@@ -7,13 +7,13 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 5%;
-    background-color: #ffffff;
+    background-color: #000000;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     z-index: 1000;
 }
 
 .logo h3 {
-    color: #333;
+    color: #ffffff;
     margin: 0;
     font-size: 1.5rem;
 }
@@ -31,13 +31,13 @@
 
 .nav-links a {
     text-decoration: none;
-    color: #333;
+    color: #ffffff;
     font-weight: 500;
     transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
-    color: #007bff;
+    color: #00ffff;
 }
 
 /* Para asegurarnos de que el contenido no quede detrás del navbar */
@@ -45,4 +45,15 @@ body {
     padding-top: 70px;
     margin: 0;
     font-family: 'Arial', sans-serif;
+}
+
+.barra-superior {
+    width: 100%;
+    background-color: black; /* Color negro */
+    color: white; /* Texto en color blanco */
+    padding: 10px; /* Espaciado dentro de la barra */
+    text-align: center; /* Centra el texto */
+    position: fixed; /* Hace que la barra esté siempre en la parte superior */
+    top: 0; /* Fija la barra en la parte superior */
+    z-index: 1000; /* Asegura que esté encima de otros elementos */
 }
